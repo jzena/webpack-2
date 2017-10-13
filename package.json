@@ -1,0 +1,37 @@
+{
+  "name": "webpack-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzena/webpack-2.git"
+  },
+  "keywords": [],
+  "author": "Jose Zena",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "cssnano": "^3.10.0",
+    "lost": "^8.2.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.7",
+    "rucksack-css": "^1.0.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.7.1"
+  },
+  "browserlist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
